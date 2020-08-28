@@ -10,7 +10,7 @@
       "questions": [
         {
           "question": "Loosely define the term 'data product' and provide an example?",
-          "answer": "",
+          "answer": "A data product is an economic engine that derives value from data, and then generates more data by influencing human behavior or creating predictions upon new data. Generated data is used to fuel the product or create other products. Data products are self-adapting, and broadly applicable systems that can learn from data. Example: Nest thermostat derives value from sensor data, adapts schedule of heating and cooling, which results in the collection of new sensor data for validation.",
           "total_marks": 2
         },
         {
