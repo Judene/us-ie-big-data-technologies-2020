@@ -15,12 +15,12 @@
         },
         {
           "question": "Provide a layman's explanation for what differentiates big data analytics from conventional data analytics?",
-          "answer": "",
+          "answer": "Big data analytics employs advanced analytic techniques against big data (defined as data with massive volumes, variety, velocity, and veracity) to help find patterns and connections which enables identification and analysis of emerging trends. Data analytics is the analysis of raw data with mechanical processes and algorithms to derive insights.",
           "total_marks": 1
         },
         {
           "question": "There are numerous articles online discussing how IoT is driving data volumes and is inextricably linked to big data. Name an IoT device that you come into contact with and what data it may be sending and receiving?",
-          "answer": "",
+          "answer": "I have a smart band, which is an IoT device that sends my personalized data regarding the number of steps taken, calories, burned, and, heart rate throughout the day to my smartphone via a Bluetooth connection. It is able to receive data from my smartphone in the form of notifications (messages, email and phone calls).",
           "total_marks": 1
         }
       ]
@@ -30,42 +30,42 @@
       "questions": [
         {
           "question": "What is on-premise computing?",
-          "answer": "",
+          "answer": "On-premise computing is a traditional computing model wherein a company hosts everything in-house in an on-premise environment (i.e. purchase and install equipment locally). The software and technology is therefore located within the physical confines of the organization on local hosts (i.e. desktops, tablets and notebooks).",
           "total_marks": 1
         },
         {
           "question": "How has on-demand cloud computing enabled big data analytics?",
-          "answer": "",
+          "answer": "On-demand cloud computing provides an elastic infrastructure (auto scaled) for real-time processing and interpretation of Big Data. This is achieved by computing resources such as storage capacity, computational speed and software applications that allow Big Data analytics to occur in a fraction of the time with the required ‘power’ from the cloud. The cloud’s scalable environment allows for the deployment of data-intensive applications that power big data analytics. ",
           "total_marks": 1
         },
         {
           "question": "What is a _multi-tenancy_, as it relates to cloud computing?",
-          "answer": "",
+          "answer": "Multi-tenancy occurs when several different cloud users access the same computing resources from a cloud vendor. Despite sharing the same infrastructure, the data and business logic of each user is kept separate and secure. Users are unaware of each other in this type of architecture.",
           "total_marks": 1
         },
         {
           "question": "How could organisations with existing infrastructure leverage _on-demand_ cloud computing?",
-          "answer": "",
+          "answer": "An organization with existing infrastructure can move parts of their data to on-demand computing services if faster computation and power is required, whilst keeping the remaining data on the existing infrastructure. Existing infrastructure can further be employed to build a private cloud for the organization.",
           "total_marks": 1
         },
         {
           "question": "Give an example of a cloud managed service and how its management may be  beneficial (in at least two specific ways, e.g. critical software updates occur automatically with no down time)?",
-          "answer": "",
+          "answer": "Agile IT, is a cloud managed service that manages cloud services, and provides technical support for automation and enhancement of business processes. Its management is beneficial in the sense that they have robust network infrastructure that monitors and scans the network for patch requirements and security. They further provide data security (minimize the risk of data loss) and accessibility (data and applications are accessible from any internet-connected device). ",
           "total_marks": 2
         },
         {
           "question": "What is horizontal vs vertical scaling?",
-          "answer": "",
+          "answer": "Horizontal scaling (scaling out), refers to the addition of multiple nodes or computing devices to a system, whilst vertical scaling (scaling up) refers to the increase in load on a single server through the addition of more resources (i.e. CPU, RAM or SSD) to improve capability or power. ",
           "total_marks": 2
         },
         {
           "question": "What is a significant source of latency in a distributed system?",
-          "answer": "",
+          "answer": "Network issues across a bandwidth-constrained line is a source of latency (time taken from input event to production of a result) in distributed systems (network structure that consists of autonomous computers that are connected with a distribution middleware to facilitate the sharing of different resources and capabilities). The slowest bandwidth speed will influence the latency of the entire system",
           "total_marks": 1
         },
         {
           "question": "Describe PaaS, Saas, Iaas and provide an example of each?",
-          "answer": "",
+          "answer": "AWS Elastic Beanstalk is a PaaS (platform-as-a service) provider, providing a cloud environment in which applications can be developed, managed, and delivered. The provider supplies underlying infrastructure. Dropbox is a SaaS (software-as-a-service) that provides users access to the vendor’s cloud-based software or application. The application resides on a remote-cloud-network which is accessed through the web or API. Rackspace is an IaaS (infrastructure-as-a-service) vendor which provides users pay-as-you-go access to computing resources (e.g. servers storage and networking) in the cloud. ",
           "total_marks": 4
         }
       ]
@@ -75,42 +75,42 @@
       "questions": [
         {
           "question": "What is the shared characteristic of R and Python that allows them to make use of a REPL (read-eval-print loop)?",
-          "answer": "",
+          "answer": "Both Python and R are simple interactive programming environments that take single user inputs, executes them and returns the results to the user in a piecewise fashion. These interpreter scripting languages have interactive language shells (interactive top levels) known as REPL to allow interaction. ",
           "total_marks": 1
         },
         {
           "question": "Suppose you want to process a large amount of data. In this context, what does it mean if a process is 'I/O bound', and how would you solve/ameliorate this using hardware, or using a language such as python or javascript (or any other language you are more familiar with)?",
-          "answer": "",
+          "answer": "A process with large amounts of data is I/O bound when the time it takes to complete a computation is determined by the waiting time for input/output operations to be completed, in other words more time is spent requesting data than processing it. I/O is solved by adding solid state storage in hard disk form. Furthermore, employing Python threading or asyncio improves performance by making better use of the CPU sitting idle when waiting for the I/O. The difference between threading and asyncio is that asyncio is a single-process and single-thread employing cooperative multitasking.",
           "total_marks": 2
         },
         {
           "question": "What does serialization mean in the context of storing objects or data?",
-          "answer": "",
+          "answer": "Serialisation is the process of converting data objects present in complex data structures into a byte stream (binary or textual form) for storage, transfer, distribution purposes and reconstruction (possibly in a different computing environment). ",
           "total_marks": 1
         },
         {
           "question": "What does it mean when we say that JSON is serializable?",
-          "answer": "",
+          "answer": "JSON, a text-based data format, is serializable because it is able to generate a storable representation value of an object in a string. An example may be as follow: The object = {foo : [1,2,3,4], bar, 'baz'}, after serializing into JSON the following occurs ‘{'foo' : [1,2,3,4], 'bar', 'baz'}’",
           "total_marks": 1
         },
         {
           "question": "Define 'embarrassingly parallelisable' and provide an example in the related to data analytics?",
-          "answer": "",
+          "answer": "Embarrassingly parallelizable is a trivial case where little or no separation is required to separate the problem into several parallel tasks where there is little or no dependency between the tasks. This means that the processes require no additional work when divided into several pieces. Examples in data analytics that are embarrassingly parallel are: Monte Carlo integration, multiple chains of MCMC, bootstrap for confidence intervals and permutation-resampling tests. ",
           "total_marks": 1
         },
         {
           "question": "What paradigm shift allows the Spark's computing engine to be faster than MapReduce?",
-          "answer": "",
+          "answer": "Spark’s ability to distribute datasets and computation in memory across a cluster has resulted in it becoming faster than MapReduce. Its processing speed and caching abilities are faster and more powerful as it runs on internal memory compared to MapReduce which runs on disk storage.",
           "total_marks": 1
         },
         {
           "question": "How is java code able to run on multiple operating systems?",
-          "answer": "",
+          "answer": "Java code can run on multiple operating systems, if they are equipped with a Java Virtual Machine (JVM). When Java code is compiled it is known as byte code, which can be read by the JVM. The JVM then interprets the byte code into something that the respective operating systems can read and run. This means Java code can run on any platform without being rewritten or recompiled. ",
           "total_marks": 1
         },
         {
           "question": "What is the difference between a virtual machine (e.g. virtualbox) and containers (e.g. docker)? Which one is more light-weight and which is more secure? ",
-          "answer": "",
+          "answer": "A VM is a computer system created using software on one physical computer, which emulates the functionality of several separate computers (i.e. appears to run several separate computers on hardware that is one computer). Containers on the contrary only virtualize the OS instead of the underlying computer (hardware-level). Containers are more light-weight as they encapsulate an application with its own operating environment, whilst VM’s are more secure as they are fully isolated.  ",
           "total_marks": 3
         }
       ]
@@ -120,7 +120,7 @@
       "questions": [
         {
           "question": "The instruction (using Unix pipes) `tail -f /var/log/syslog | grep CRITICAL` streams system logs into a search command. This is an example of partial-order computation -- a concurrency model. Is it embarrassingly parallelisable? Motivate your answer.",
-          "answer": "",
+          "answer": "No, as it is a concurrency model two or more tasks can start, run, and complete in overlapping time periods. They will not necessarily be running at the same time instant as in the case of an embarrassingly parallel model. Simply put, it is dealing with a lot of things at the same time (but not necessarily progressing simultaneously) instead of having tasks that occur independently (embarrassingly parallel).",
           "total_marks": 2
         },
         {
@@ -130,17 +130,17 @@
         },
         {
           "question": "What is meant by unbounded data, and how does it differ from bounded data?",
-          "answer": "",
+          "answer": "Unbound data (referring to infinite 'streaming' data) is unpredictable, infinite, not always sequential, and, created in a never-ending cycle. Examples include smart car, city, agriculture, and manufacturing sensors. Bounded data (referring to finite “batch” datasets) is a finite and unchanging, where everything is known about the dataset. Examples include historical reports or transactional datasets. ",
           "total_marks": 2
         },
         {
           "question": "Stream processing is an inherently time-related activity; describe the difference between 'event time' and 'processing time' within these systems, and provide a brief example in the banking or retail sector?",
-          "answer": "",
+          "answer": "Event time refers to the time that the event actually occurred, whilst processing time refers to the time at which events are observed in the system. The time at which a banking transaction (EFT) is executed (push the OK button) by the user is known as the event time, whilst the time that it takes from the execution of the transaction (user pressed button) to the system registering that the Ok button was pressed is the processing time. ",
           "total_marks": 3
         },
         {
           "question": "It is possible to process _unbounded_ data in a batch system. If our use-case  does not require near real-time processing, then how would this be done?",
-          "answer": "",
+          "answer": "It is possible to process unbound data in a batch system by slicing the data into a collection of bounded datasets for batch processing. If no real-time processing is required (i.e. continuous and automatic processing of data), the model can wait until the batch is filled with unbounded data before execution or slice the unbounded datasets into bounded sets. ",
           "total_marks": 1
         }
       ]
@@ -150,37 +150,37 @@
       "questions": [
         {
           "question": "Tape drives are still in wide use around the world. Provide three reasons for their continued use?",
-          "answer": "",
+          "answer": "Tape drives are still utilized today due to their cheap nature (i.e. storage capacity is very cheap compared to the cost of disks), they are energy efficient (i.e. once data has been recorded the tape cartridge it does not consume any power when stored), and, it is extremely reliable in the sense that it has error rates that are four to five orders of magnitude lower than hard drives. Finally, tape drives are extremely secure with a built-in, on-the-fly encryption and additional security provided by the tape itself.",
           "total_marks": 3
         },
         {
           "question": "What is the difference between a _kibibyte_ and a _kilobyte_, and which is accurate in terms of storage?",
-          "answer": "",
+          "answer": "A kibibyte is strictly equal to 1024 bytes (2^10), whilst a kilobyte is equal to either 1024 bytes or 1000 bytes as defined by the IEC. A kilobyte refers to a unit of storage and therefore is accurate in terms of storage, whilst memory size is referred to in kibibytes. ",
           "total_marks": 2
         },
         {
           "question": "If a compact disk is 1.2mm thick, and can store 700MiB on a single disk, then how many pebibytes (PiB) of data would be stored on a hypothetical column of compact disks stacked between the Earth and the Moon? How many exbibytes (EiB)?",
-          "answer": "",
+          "answer": "The average distance to the moon is 384 400 km (3.8440E+11mm), meaning that 3.203333333E+11 disks with a thickness of 1.2mm can be fitted on a column between the Earth and the Moon. A total of 2.24233333E14 MiB (3.203333333E+11 * 700MiB) is therefore stored in the entire disk column. Since 1 MiB is equal to 9.3132E-10 PiB and 9.0949E-13 EiB the following can be stored: 208 833.565 PiBs and 203.939 EiBs.",
           "total_marks": 2
         },
         {
           "question": "Briefly described what is meant when people refer to SQL and NoSQL databases and provide an example of a type of data typically stored in NoSQL databases?",
-          "answer": "",
+          "answer": "SQL databases are relational databases which use a structured query language with a predefined schema. They are vertically scalable, table-based and better for multi-row transactions. On the contrary, NoSQL are non-relational databases that employs dynamic schemas for unstructured data, whilst being horizontally scalable. Big data from social-media and e-commerce employs NoSQL, as it can manage requests, transactions, activity, and, data. ",
           "total_marks": 2
         },
         {
           "question": "_Wide-column_ and _key-value_ stores are examples of NoSQL database types. Can you name two more?",
-          "answer": "",
+          "answer": "Two additional NoSQL databases are document databases (contains several different key-value pairs) and graph databases (stores data related to connections or networks). ",
           "total_marks": 2
         },
         {
           "question": " What makes Avro self-describing, and does Google's ProtoBuf also have this feature? Why is this a useful?",
-          "answer": "",
+          "answer": "Avro, a language-neutral data serialization system which is schema-based, serializes data into a compact binary format whilst creating a self-describing file named ‘Avro data File’ containing the data along with its schema in the metadata section. This feature is important as it enables one to understand the format of the data itself (i.e. how is data stored), and, how to translate the data back to the origin. Google’s ProtoBuf does not have a self-describing feature. ",
           "total_marks": 2
         },
         {
           "question": "When comparing random access memory (RAM) to conventional solid state disks and rota disks (normal rotational), how many orders of magnitude faster is _main memory_ or RAM (these are approximate calculations that may ignore the differences between read and write operations)?",
-          "answer": "",
+          "answer": "RAM has an approximate speed of 10664Mb/s (1333MHz), SSD has an average speed of 487Mb/s (combination of read (545 Mb/s) and write (430 Mb/s) speed), and, rota disks have an approximate speed of 140 Mb/s. In order of magnitude RAM is approximately 20 times faster than solid state drives and 70 times faster than rota disks.",
           "total_marks": 1
         }
       ]
@@ -190,32 +190,32 @@
       "questions": [
         {
           "question": "Big data teams often include, amongst other roles, data engineers and data scientists. Provide a few differentiating responsibilities between these two roles?",
-          "answer": "",
+          "answer": "Data engineers are focused on designing scalable, high performance infrastructure and architecture for delivering insights from data collection and processing. They further develop, test, and maintain the designed architecture (i.e. databases and large-scale processing systems). In contrast, data scientists interact with the designed data infrastructure and architecture to conduct market and business-operation research to identify trends. Essentially, data scientists clean, organize and analyse data with descriptive statistics to develop insights. ",
           "total_marks": 2
         },
         {
           "question": "Why is data lineage important in analytics applications?",
-          "answer": "",
+          "answer": "Data lineage is defined as the data lifecycle that includes its origins, movement over time and transformations. It is important in analytical operations as one can perform quality control, explain how particular insights were derived, have data visibility (i.e. data scientists are able to sort and organize data more efficiently), and, perform root cause analysis error identification.",
           "total_marks": 2
         },
         {
           "question": "The operation of reading data from a database may be said to be _idempotent_. Suppose  we fill our online shopping cart with items, and proceed to checkout. Would we want the  checkout process to be idempotent, and why? ",
-          "answer": "",
+          "answer": "Idempotent may be defined as any function that is executed several times without changing the final result beyond its first iteration. An online shopping checkout process should be idempotent as it will allow the user to tap the “Checkout” or “Pay” button several times, yet only charging the account once. This ensures, that an anxious user tapping the button several times will only be charged once, due to the step being impotent. If the function wasn’t impotent, the user would have checked out and payed for the items multiple times. ",
           "total_marks": 2
         },
         {
           "question": "What is CICD?",
-          "answer": "",
+          "answer": "CIDC, refers to the combined practices of continuous integration (CI) and continuous delivery or deployment (CD). CI is a coding philosophy that drives development teams to implement small changes and check code version control repositories frequently, whilst CD picks up where CI ends. CD automates the delivery of applications to selected infrastructure environments. ",
           "total_marks": 1
         },
         {
           "question": "What is DataOps?",
-          "answer": "",
+          "answer": "DataOps (data operations) is an agile approach focused on improving the communication, integration, and automation of data flows between data managers and data consumers through the design, implementation, and maintenance of a distributed data architecture. The aim of DataOps is to break-down silos and promote efficient, streamlined data handing across many segments. ",
           "total_marks": 1
         },
         {
           "question": "When is data _immutable_ and why is it it a useful concept in the big data realm (e.g. consider Hadoop's HDFS filesystem or S3 buckets in AWS)?",
-          "answer": "",
+          "answer": "If the value of an object does not change it is called immutable. This is a useful concept in the big data realm as it will ensure that no data value or object is overwritten (i.e. data is written once and read several times). This means that once a file is stored in HDFS it cannot be modified. As a result, the state of data as all queries are performed, at a particular point-in-time, and at any point-in-time, the database is consistent and unchanging.",
           "total_marks": 1
         }
       ]
@@ -225,22 +225,22 @@
       "questions": [
         {
           "question": "What is a metastore/metadata server in distributed systems and why is it important (e.g. consider the Hive Metastore in the Hadoop environment, NameNodes in the Hadoop Filesystem, or Metadata Servers in Ceph)?",
-          "answer": "",
+          "answer": "A metastore is the central repository for a collection of schema, tables, relationships, queries, locations, partitions, and views. In keeping all the information related to the database in the metastore, one can easily manage the tables, relationships and operations. Furthermore, a metastore is important because it acts as a central schema repository which can be employed by other access tools such as Spark and Pig. ",
           "total_marks": 1
         },
         {
           "question": "What kind of database is Cassandra and what kind of workloads is it suited for (i.t.o read/writes)?",
-          "answer": "",
+          "answer": "Cassandra is a highly scalable, high-performance NoSQL distributed database designed to handle large amounts of data across many commodity servers. Cassandra is optimized for a write heavy workload whilst still maintaining good performance for reads. ",
           "total_marks": 2
         },
         {
           "question": "What is the H2O platform and what underlying design/operational choice does it share with Spark?",
-          "answer": "",
+          "answer": "H2O is an open source, distributed in-memory machine learning platform with linear scalability supporting popular statistical and machine learning algorithms. Like H2O, Spark is an open source in-memory platform.  One can therefore easily integrate the two open-source environments providing an effortless experience for users who make a query using Spark, feed the results into H2O to build the model and make predictions, and then use the results in Spark again. ",
           "total_marks": 1
         },
         {
           "question": "If I create a feature branch `feature/biglie` off `master` in git, and someone makes a code change to master, how do I get their changes into my branch?",
-          "answer": "",
+          "answer": "Once the changes on the branch is completed on can do the following: (1) make sure your branch exists (code: git checkout my_branch), (2) fetch all the changes (code: git fetch origin), (3) pull changes from the origin remote, master branch and merge them into my_branch (code: git pull origin master), (4) push my_branch (code: git push origin my_branch)",
           "total_marks": 1
         }
       ]
@@ -250,7 +250,7 @@
       "questions": [
         {
           "question": "How do we know if a machine learning model will perform well 'in the wild'?",
-          "answer": "",
+          "answer": "How a model is trained, influences how it performs in the ‘wild’. One should therefore train the model in such a way that inherent biases are removed, skewed distributed data is rectified with under-or-over sampling techniques and provide the model with enough training, validation and testing data. ",
           "total_marks": 1
         },
         {
